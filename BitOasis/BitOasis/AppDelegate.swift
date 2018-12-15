@@ -10,14 +10,33 @@ import UIKit
 import CoreData
 
 @UIApplicationMain
+
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    internal var navigationController:UINavigationController?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        
         // Override point for customization after application launch.
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        let viewController = WelcomeViewController(nibName: "WelcomeView", bundle: nil)
+        self.navigationController = UINavigationController.init(rootViewController: viewController)
+        self.navigationController?.isNavigationBarHidden = true
+       
+        window?.rootViewController = self.navigationController
+        window?.makeKeyAndVisible()
         return true
+ 
+        
+//        window = UIWindow(frame: UIScreen.main.bounds)
+//        let homeViewController = UIViewController()
+//        homeViewController.view.backgroundColor = UIColor.red
+//        window!.rootViewController = homeViewController
+//        window!.makeKeyAndVisible()
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

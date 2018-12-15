@@ -7,13 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B072FD721C54B36007DA152 /* Ticker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B072FD621C54B36007DA152 /* Ticker.swift */; };
 		6B96824721C113D700714081 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B96824621C113D700714081 /* AppDelegate.swift */; };
 		6B96824921C113D700714081 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B96824821C113D700714081 /* ViewController.swift */; };
-		6B96824C21C113D700714081 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B96824A21C113D700714081 /* Main.storyboard */; };
 		6B96824F21C113D700714081 /* BitOasis.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B96824D21C113D700714081 /* BitOasis.xcdatamodeld */; };
 		6B96825121C113D700714081 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B96825021C113D700714081 /* Assets.xcassets */; };
 		6B96825421C113D700714081 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B96825221C113D700714081 /* LaunchScreen.storyboard */; };
 		6B96825F21C113D700714081 /* BitOasisTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B96825E21C113D700714081 /* BitOasisTests.swift */; };
+		6B96826A21C1839600714081 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B96826921C1839600714081 /* WelcomeViewController.swift */; };
+		6B96826C21C183AB00714081 /* WelcomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B96826B21C183AB00714081 /* WelcomeView.xib */; };
+		6B96827021C256CC00714081 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B96826F21C256CC00714081 /* LoginViewController.swift */; };
+		6B96827221C256DC00714081 /* LoginView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B96827121C256DC00714081 /* LoginView.xib */; };
+		6B96827521C390CC00714081 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B96827421C390CC00714081 /* RegisterViewController.swift */; };
+		6B96827721C390DD00714081 /* RegisterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B96827621C390DD00714081 /* RegisterView.xib */; };
+		6B96827A21C39C3900714081 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B96827921C39C3900714081 /* HomeViewController.swift */; };
+		6B96827C21C39C4600714081 /* HomeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B96827B21C39C4600714081 /* HomeView.xib */; };
+		6B96827F21C3A3F900714081 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B96827E21C3A3F900714081 /* NetworkController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,10 +36,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B072FD621C54B36007DA152 /* Ticker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticker.swift; sourceTree = "<group>"; };
 		6B96824321C113D700714081 /* BitOasis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitOasis.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B96824621C113D700714081 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B96824821C113D700714081 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6B96824B21C113D700714081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B96824E21C113D700714081 /* BitOasis.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BitOasis.xcdatamodel; sourceTree = "<group>"; };
 		6B96825021C113D700714081 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B96825321C113D700714081 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -38,6 +47,15 @@
 		6B96825A21C113D700714081 /* BitOasisTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitOasisTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B96825E21C113D700714081 /* BitOasisTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BitOasisTests.swift; sourceTree = "<group>"; };
 		6B96826021C113D700714081 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B96826921C1839600714081 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		6B96826B21C183AB00714081 /* WelcomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WelcomeView.xib; sourceTree = "<group>"; };
+		6B96826F21C256CC00714081 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6B96827121C256DC00714081 /* LoginView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginView.xib; sourceTree = "<group>"; };
+		6B96827421C390CC00714081 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		6B96827621C390DD00714081 /* RegisterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RegisterView.xib; sourceTree = "<group>"; };
+		6B96827921C39C3900714081 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6B96827B21C39C4600714081 /* HomeView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeView.xib; sourceTree = "<group>"; };
+		6B96827E21C3A3F900714081 /* NetworkController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +76,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B072FD521C54B11007DA152 /* TickerData */ = {
+			isa = PBXGroup;
+			children = (
+				6B072FD621C54B36007DA152 /* Ticker.swift */,
+			);
+			path = TickerData;
+			sourceTree = "<group>";
+		};
 		6B96823A21C113D700714081 = {
 			isa = PBXGroup;
 			children = (
+				6B072FD521C54B11007DA152 /* TickerData */,
+				6B96827D21C3A3E200714081 /* NeworkAPI */,
 				6B96824521C113D700714081 /* BitOasis */,
 				6B96825D21C113D700714081 /* BitOasisTests */,
 				6B96824421C113D700714081 /* Products */,
@@ -79,9 +107,12 @@
 		6B96824521C113D700714081 /* BitOasis */ = {
 			isa = PBXGroup;
 			children = (
+				6B96827821C39C1700714081 /* HomeView */,
+				6B96827321C390B600714081 /* Register */,
+				6B96826E21C253D000714081 /* Login */,
+				6B96826D21C253C000714081 /* WelCome */,
 				6B96824621C113D700714081 /* AppDelegate.swift */,
 				6B96824821C113D700714081 /* ViewController.swift */,
-				6B96824A21C113D700714081 /* Main.storyboard */,
 				6B96825021C113D700714081 /* Assets.xcassets */,
 				6B96825221C113D700714081 /* LaunchScreen.storyboard */,
 				6B96825521C113D700714081 /* Info.plist */,
@@ -97,6 +128,50 @@
 				6B96826021C113D700714081 /* Info.plist */,
 			);
 			path = BitOasisTests;
+			sourceTree = "<group>";
+		};
+		6B96826D21C253C000714081 /* WelCome */ = {
+			isa = PBXGroup;
+			children = (
+				6B96826921C1839600714081 /* WelcomeViewController.swift */,
+				6B96826B21C183AB00714081 /* WelcomeView.xib */,
+			);
+			path = WelCome;
+			sourceTree = "<group>";
+		};
+		6B96826E21C253D000714081 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				6B96826F21C256CC00714081 /* LoginViewController.swift */,
+				6B96827121C256DC00714081 /* LoginView.xib */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		6B96827321C390B600714081 /* Register */ = {
+			isa = PBXGroup;
+			children = (
+				6B96827421C390CC00714081 /* RegisterViewController.swift */,
+				6B96827621C390DD00714081 /* RegisterView.xib */,
+			);
+			path = Register;
+			sourceTree = "<group>";
+		};
+		6B96827821C39C1700714081 /* HomeView */ = {
+			isa = PBXGroup;
+			children = (
+				6B96827921C39C3900714081 /* HomeViewController.swift */,
+				6B96827B21C39C4600714081 /* HomeView.xib */,
+			);
+			path = HomeView;
+			sourceTree = "<group>";
+		};
+		6B96827D21C3A3E200714081 /* NeworkAPI */ = {
+			isa = PBXGroup;
+			children = (
+				6B96827E21C3A3F900714081 /* NetworkController.swift */,
+			);
+			path = NeworkAPI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B96825421C113D700714081 /* LaunchScreen.storyboard in Resources */,
+				6B96827721C390DD00714081 /* RegisterView.xib in Resources */,
 				6B96825121C113D700714081 /* Assets.xcassets in Resources */,
-				6B96824C21C113D700714081 /* Main.storyboard in Resources */,
+				6B96827221C256DC00714081 /* LoginView.xib in Resources */,
+				6B96826C21C183AB00714081 /* WelcomeView.xib in Resources */,
+				6B96827C21C39C4600714081 /* HomeView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,8 +280,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B96827F21C3A3F900714081 /* NetworkController.swift in Sources */,
+				6B96826A21C1839600714081 /* WelcomeViewController.swift in Sources */,
 				6B96824F21C113D700714081 /* BitOasis.xcdatamodeld in Sources */,
 				6B96824921C113D700714081 /* ViewController.swift in Sources */,
+				6B072FD721C54B36007DA152 /* Ticker.swift in Sources */,
+				6B96827521C390CC00714081 /* RegisterViewController.swift in Sources */,
+				6B96827021C256CC00714081 /* LoginViewController.swift in Sources */,
+				6B96827A21C39C3900714081 /* HomeViewController.swift in Sources */,
 				6B96824721C113D700714081 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -227,14 +311,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6B96824A21C113D700714081 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6B96824B21C113D700714081 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		6B96825221C113D700714081 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
